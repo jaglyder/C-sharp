@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPagejag9603.master.cs" Inherits="MIS316_MasterPagejag9603" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        Jillian Glyder (jag9603@uncw.edu)<br />
+        <asp:HyperLink ID="hlPortfolio" runat="server" NavigateUrl="~/Default.aspx">My Portfolio</asp:HyperLink>
+&nbsp;&gt;
+        <asp:HyperLink ID="hlMIS316" runat="server" NavigateUrl="~/Default.aspx">MIS 316</asp:HyperLink>
+        <br />
+        <br />
+        <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
